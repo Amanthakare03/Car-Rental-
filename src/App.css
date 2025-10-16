@@ -1,0 +1,127 @@
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 80px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+
+/* .nav-links li {
+  font-weight: 600;
+  cursor: pointer;
+} */
+
+/* .auth-buttons {
+  display: flex;
+  gap: 15px;
+} */
+
+/* .signin {
+  background: transparent;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+} */
+
+/* .register {
+  background: #ff4d30;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 5px 10px rgba(255, 77, 48, 0.3);
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  background: #fff4f0;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.subtitle {
+  font-weight: 700;
+  color: #000;
+}
+
+.hero h1 {
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin: 15px 0;
+}
+
+.hero h1 span {
+  color: #ff4d30;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.book {
+  background: #ff4d30;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(255, 77, 48, 0.3);
+}
+
+.learn {
+  background: #000;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.hero-image img {
+  width: 500px;
+} */ 
