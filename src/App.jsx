@@ -4,13 +4,14 @@ import Header from "./Header";
 import maincar from "./assets/main-car.png";
 import Footer from "./Footer";
 import About from "./About";
+import { Link } from "react-router-dom";
 
 
 
 function App() {
   return (
     <>
-    <div className="min-h-screen font-poppins, sans-serif box-border ">
+    <div className="min-h-screen font-poppins, sans-serif box-border bg-gray-50 ">
 
     <Header />
     <br />
@@ -26,7 +27,7 @@ function App() {
             flexible pick-up options and much more.
           </p>
           <div className="flex gap-4">
-            <button className="bg-red-600 w-30  text-white font-bold rounded-4xl p-3 shadow-2xl ">Book Ride</button>
+            <Link to="About.jxs"><button className="bg-red-600 w-30  text-white font-bold rounded-4xl p-3 shadow-2xl ">Book Ride</button></Link>
             <button className="bg-black text-white p-3 rounded-4xl w-30">Learn More</button>
           </div>
         </div>

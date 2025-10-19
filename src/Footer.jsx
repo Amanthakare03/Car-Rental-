@@ -1,5 +1,6 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -7,7 +8,7 @@ const Footer = () => {
 
 
   return (
-    <footer className="bg-gray-900 text-gray-300 py-10">
+    <footer className="bg-black text-gray-300 py-10">
       <div className="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-4 gap-8">
         <div>
           <h2 className="text-2xl font-bold text-white mb-3">CarRent</h2>
@@ -35,10 +36,9 @@ const Footer = () => {
 
         
         <div className="flex space-x-4 mt-4">
-            <FaFacebook size={30} />
-            <FaInstagram size={30} />
-            <FaTwitter size={30} />
-            <FaLinkedin size={30} />
+            <Link to="https://www.facebook.com/people/Aman-Thakare/pfbid02KHkae3q2vsitai2o1ADLrqXFN84vRo132RHs3s1ekwZU9zuc5J1cXgg9eUrRTY3Tl/?mibextid=rS40aB7S9Ucbxw6v"><FaFacebook size={30} /></Link>
+            <Link to="https://www.instagram.com/amanthakare03/?utm_source=qr&igsh=MXQ3aW5haGtyemkxdA%3D%3D#"><FaInstagram size={30} /></Link>
+            <Link to="https://www.linkedin.com/in/amanthakare03?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "><FaLinkedin size={30} /></Link>
         </div>
         </div>
       </div>
